@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    height: 500px;
+}
+.zona1 {
+    flex: 1 1 33%;
+    border: solid black 1px;
+}
+.zona2 {
+    flex: 1 1 33%;
+    border: solid black 1px;
+}
+.zona3 {
+    flex: 1 1 33%;
+    border: solid black 1px;
+}
+
+.zona1 .contentz1 {
+    text-align: center;
+}
+.zona1 input, .zona1 button{
+    margin-top: 10px;
+}
+.zona2 ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.zona2 ul li{
+    flex: 1;
+    margin-bottom: 10px;
+    
+}
+.zona2 ul li:hover {
+    background-color: red;
+}
