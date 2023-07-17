@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    height: 500px;
+    min-height:500px;
 }
 .zona1 {
     flex: 1 1 33%;
