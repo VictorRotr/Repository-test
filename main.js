@@ -14,8 +14,9 @@ list.innerHTML ='';
      li.innerText = item;
      list.appendChild(li);
 });
+document.getElementById('inputStiatiCa').value = '';
 }
-console.log(stiatiCa)
+console.log(stiatiCa);
 document.getElementById('addBtn').addEventListener("click", inputInfo);
 
 
